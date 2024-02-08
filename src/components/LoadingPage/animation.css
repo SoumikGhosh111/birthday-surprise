@@ -1,0 +1,58 @@
+.slide-srpring-1{ 
+    animation: slide-srpring 0.5s ease-out;
+}
+.slide-srpring-2{ 
+    animation: slide-srpring 1s ease-out;
+}
+.slide-srpring-3{ 
+    animation: slide-srpring 1.5s ease-out;
+}
+.slide-srpring-4{ 
+    animation: slide-srpring 2s ease-out;
+}
+.slide-srpring-5{ 
+    animation: slide-srpring 2.5s ease-out;
+}
+.slide-srpring-6{ 
+    animation: slide-srpring 3s ease-out;
+}
+.slide-srpring-7{ 
+    animation: slide-srpring 3.5s ease-out;
+}
+.slide-srpring-8{ 
+    animation: slide-srpring 4s ease-out;
+}
+
+
+
+
+
+@keyframes slide-srpring{
+    0%{ 
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50%{ 
+        opacity: 1;
+        transform: translateX(10%);
+    }
+    100%{ 
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* @keyframes spring {
+    0%{ 
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    50%{ 
+        opacity: 1;
+        transform: translateY(10%);
+    }
+    100%{ 
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */

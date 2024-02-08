@@ -1,0 +1,39 @@
+html{ 
+    scroll-behavior: smooth;
+}
+.main-container{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.caro-container{ 
+    width: 80%;
+    height: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-width: thin; /* Optional: for Firefox */
+    scrollbar-color: #e77f3a;
+}
+.caro-container img {
+    margin-right:  10px; 
+}
+.button-class{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0.2rem;
+    border: 1px solid black;
+    box-shadow: inset 1px 1px 5px 0px black;
+}
+.clicked {
+    transform: scale(1.1);
+    transition: all  0.3s ease-in-out;
+}

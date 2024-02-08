@@ -1,0 +1,44 @@
+
+
+.spring-1{
+    animation: springEffect  1s ease-out;
+ }
+
+.spring-2{
+    animation: springEffect  2S ease-out;
+ }
+
+.spring-3{
+    animation: springEffect  3S ease-out;
+ }
+
+.spring-4{ 
+    animation: springEffect  4S ease-out;
+}
+
+.spring-text-1{ 
+    animation: springEffect  1.5S ease-out;
+}
+.spring-text-2{ 
+    animation: springEffect  2.5S ease-out;
+}
+.spring-text-3{ 
+    animation: springEffect  3.5S ease-out;
+}
+.spring-text-4{ 
+    animation: springEffect  4.5S ease-out;
+}
+@keyframes springEffect {   
+  0%{ 
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  50%{  
+    opacity: 1;
+    transform: translateY(-5%);
+  }
+  100%{ 
+    opacity: 1;
+    transform: translateY(0);
+  }
+ }
